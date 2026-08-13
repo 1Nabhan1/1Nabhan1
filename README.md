@@ -25,20 +25,43 @@
 
 ## 🌌 About Me
 
-```javascript
-const nabhan = {
-  name: "Nabhan Usman",
-  role: "Software Developer",
-  specialties: ["Mobile Development", "Web Development"],
-  currentlyBuilding: "Something awesome 🚀",
-  passions: ["Dark UIs", "Clean Architecture", "Performance"],
-  funFact: "I think in dark mode 🌑",
-  available: true,
-};
-```
-
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=1Nabhan1&bg_color=0d1117&color=00d4ff&line=00d4ff&point=a0e4f1&area=true&hide_border=true" width="100%" alt="Activity Graph"/>
+
+<!-- Animated about-me typing -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=800&color=00D4FF&center=true&vCenter=true&width=700&lines=👋+Hey!+I'm+Nabhan+Usman;💻+Software+Developer+crafting+digital+experiences;📱+I+build+sleek+Mobile+apps+that+feel+native;🌐+I+craft+Web+apps+that+live+in+the+dark;⚡+Performance+obsessed+%26+clean+code+lover;🌑+My+IDE+theme%3F+Always+dark.+Always." alt="About Me Typing"/>
+
+<br/><br/>
+
+<!-- Info cards as animated badges -->
+<table>
+  <tr>
+    <td align="center" width="200">
+      <img src="https://img.shields.io/badge/🧑‍💻-Software_Developer-00d4ff?style=for-the-badge&labelColor=0d1117"/>
+    </td>
+    <td align="center" width="200">
+      <img src="https://img.shields.io/badge/📍-Kerala%2C_India-blueviolet?style=for-the-badge&labelColor=0d1117"/>
+    </td>
+    <td align="center" width="200">
+      <img src="https://img.shields.io/badge/💼-Open_to_Work-00ff88?style=for-the-badge&labelColor=0d1117"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/📱-Mobile_Dev-02569B?style=for-the-badge&labelColor=0d1117"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/🌐-Web_Dev-0f3460?style=for-the-badge&labelColor=0d1117"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/🌑-Dark_Mode_Always-111111?style=for-the-badge&labelColor=0d1117"/>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=1Nabhan1&bg_color=0d1117&color=00d4ff&line=00d4ff&point=a0e4f1&area=true&hide_border=true" width="100%" alt="Activity Graph"/>
+
 </div>
 
 ---
@@ -89,13 +112,13 @@ const nabhan = {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=1Nabhan1&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9&ring_color=00d4ff" height="180" alt="GitHub Stats"/>
+<img src="https://github-readme-stats.vercel.app/api?username=1Nabhan1&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9&count_private=true&include_all_commits=true" height="180" alt="GitHub Stats"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=1Nabhan1&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9" height="180" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=1Nabhan1&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9&langs_count=8" height="180" alt="Top Languages"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=1Nabhan1&theme=github-dark-blue&hide_border=true&background=0d1117&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&sideLabels=00d4ff" alt="GitHub Streak" width="500"/>
+<img src="https://streak-stats.demolab.com?user=1Nabhan1&theme=github-dark-blue&hide_border=true&background=0d1117&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&sideLabels=00d4ff" alt="GitHub Streak" width="500"/>
 
 </div>
 
@@ -104,40 +127,32 @@ const nabhan = {
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=1Nabhan1&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=8" width="100%" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=1Nabhan1&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=8" width="100%" alt="GitHub Trophies"/>
 </div>
 
 ---
 
-## 🌟 What I'm Up To
+## ⚡ What I'm Up To
 
-<table align="center">
-  <tr>
-    <td align="center">🔭</td>
-    <td><b>Currently building</b></td>
-    <td>Cross-platform mobile apps & responsive web experiences</td>
-  </tr>
-  <tr>
-    <td align="center">🌱</td>
-    <td><b>Learning</b></td>
-    <td>Advanced animations, system design & cloud architecture</td>
-  </tr>
-  <tr>
-    <td align="center">💡</td>
-    <td><b>Interests</b></td>
-    <td>Dark UI/UX, Performance optimization, Open Source</td>
-  </tr>
-  <tr>
-    <td align="center">🎯</td>
-    <td><b>Goal 2026</b></td>
-    <td>Ship impactful products & grow as a full-stack software dev</td>
-  </tr>
-  <tr>
-    <td align="center">⚡</td>
-    <td><b>Fun fact</b></td>
-    <td>My code works best at midnight in dark mode ✨</td>
-  </tr>
-</table>
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2000&pause=600&color=00D4FF&center=true&vCenter=true&width=600&lines=🔭+Building+cross-platform+mobile+apps...;🌐+Crafting+dark-themed+web+experiences...;🌱+Leveling+up+in+system+design+%26+cloud...;🎯+Goal%3A+Ship+products+that+matter+in+2026;⚡+Debugging+at+midnight+in+dark+mode...;🤝+Open+to+collabs+%26+exciting+projects!" alt="What I'm up to"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/🔭_Building-Cross--Platform_Mobile_Apps-00d4ff?style=for-the-badge&labelColor=0d1117"/>
+<br/>
+<img src="https://img.shields.io/badge/🌱_Learning-System_Design_%26_Cloud_Arch-blueviolet?style=for-the-badge&labelColor=0d1117"/>
+<br/>
+<img src="https://img.shields.io/badge/💡_Passion-Dark_UI_%26_Clean_Code-ff6b6b?style=for-the-badge&labelColor=0d1117"/>
+<br/>
+<img src="https://img.shields.io/badge/🎯_Goal_2026-Ship_Impactful_Products-00ff88?style=for-the-badge&labelColor=0d1117"/>
+<br/>
+<img src="https://img.shields.io/badge/⚡_Fun_Fact-Code_hits_different_at_midnight_🌑-ffaa00?style=for-the-badge&labelColor=0d1117"/>
+<br/>
+<img src="https://img.shields.io/badge/🤝_Status-Open_to_Collabs_%26_Projects-00d4ff?style=for-the-badge&labelColor=0d1117"/>
+
+</div>
 
 ---
 
@@ -160,11 +175,11 @@ const nabhan = {
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://linkedin.com/in/nabhan-usman"><!-- update with your real LinkedIn -->
+  <a href="https://linkedin.com/in/nabhan-usman">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://twitter.com/nabhan_usman"><!-- update with your real Twitter/X -->
+  <a href="https://twitter.com/nabhan_usman">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
   </a>
   &nbsp;
