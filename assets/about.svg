@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" height="320">
+  <defs>
+    <linearGradient id="terminal-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+
+    <filter id="card-glow">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#00d4ff" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes cursorBlink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes lineFade {
+      0% { opacity: 0; transform: translateX(-10px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+
+    .window-bg { fill: url(#terminal-bg); stroke: #30363d; stroke-width: 1.5; rx: 12px; filter: url(#card-glow); }
+    .header-bar { fill: #161b22; rx: 12px; }
+    .title { font-family: 'Fira Code', monospace; font-size: 13px; fill: #8b949e; }
+    .code-text { font-family: 'Fira Code', 'Consolas', monospace; font-size: 14.5px; fill: #c9d1d9; }
+    .keyword { fill: #ff7b72; font-weight: bold; }
+    .variable { fill: #79c0ff; }
+    .property { fill: #d2a8ff; }
+    .string { fill: #a5d6ff; }
+    .array { fill: #7ee787; }
+    .comment { fill: #8b949e; font-style: italic; }
+    .cursor { fill: #00d4ff; animation: cursorBlink 1s infinite; }
+    .card-border { stroke: #00d4ff; stroke-width: 1; stroke-opacity: 0.3; }
+
+    .line1 { animation: lineFade 0.5s ease-out 0.2s forwards; }
+    .line2 { animation: lineFade 0.5s ease-out 0.4s forwards; }
+    .line3 { animation: lineFade 0.5s ease-out 0.6s forwards; }
+    .line4 { animation: lineFade 0.5s ease-out 0.8s forwards; }
+    .line5 { animation: lineFade 0.5s ease-out 1.0s forwards; }
+    .line6 { animation: lineFade 0.5s ease-out 1.2s forwards; }
+    .line7 { animation: lineFade 0.5s ease-out 1.4s forwards; }
+    .line8 { animation: lineFade 0.5s ease-out 1.6s forwards; }
+  </style>
+
+  <!-- Terminal Window Background -->
+  <rect width="900" height="320" class="window-bg" />
+
+  <!-- Window Header Bar -->
+  <path d="M 0 12 C 0 5.37 5.37 0 12 0 L 888 0 C 894.63 0 900 5.37 900 12 L 900 38 L 0 38 Z" class="header-bar" />
+  <line x1="0" y1="38" x2="900" y2="38" stroke="#30363d" stroke-width="1" />
+
+  <!-- Window Control Buttons -->
+  <circle cx="25" cy="19" r="6" fill="#ff5f56" />
+  <circle cx="45" cy="19" r="6" fill="#ffbd2e" />
+  <circle cx="65" cy="19" r="6" fill="#27c93f" />
+
+  <!-- Window Title -->
+  <text x="450" y="24" text-anchor="middle" class="title">⚡ nabhan_usman.js — Visual Studio Code</text>
+
+  <!-- Code Editor Content -->
+  <g transform="translate(35, 70)" class="code-text">
+    <!-- Line 1 -->
+    <text y="0" class="line1">
+      <tspan class="comment">// 🌌 Software Developer Profile &amp; Bio</tspan>
+    </text>
+    
+    <!-- Line 2 -->
+    <text y="28" class="line2">
+      <tspan class="keyword">const</tspan> <tspan class="variable">developer</tspan> = {
+    </text>
+
+    <!-- Line 3 -->
+    <text y="56" class="line3">
+      &nbsp;&nbsp;<tspan class="property">name</tspan>: <tspan class="string">"Nabhan Usman"</tspan>,
+    </text>
+
+    <!-- Line 4 -->
+    <text y="84" class="line4">
+      &nbsp;&nbsp;<tspan class="property">role</tspan>: <tspan class="string">"Software Developer"</tspan>,
+    </text>
+
+    <!-- Line 5 -->
+    <text y="112" class="line5">
+      &nbsp;&nbsp;<tspan class="property">specialties</tspan>: [<tspan class="array">"Mobile Development 📱"</tspan>, <tspan class="array">"Web Development 🌐"</tspan>],
+    </text>
+
+    <!-- Line 6 -->
+    <text y="140" class="line6">
+      &nbsp;&nbsp;<tspan class="property">focus</tspan>: [<tspan class="string">"Clean Architecture"</tspan>, <tspan class="string">"High Performance"</tspan>, <tspan class="string">"Sleek UIs"</tspan>],
+    </text>
+
+    <!-- Line 7 -->
+    <text y="168" class="line7">
+      &nbsp;&nbsp;<tspan class="property">status</tspan>: <tspan class="string">"🚀 Open to Opportunities &amp; Building Next-Gen Apps"</tspan>
+    </text>
+
+    <!-- Line 8 -->
+    <text y="196" class="line8">
+      }; <rect x="30" y="184" width="8" height="16" class="cursor" />
+    </text>
+  </g>
+</svg>

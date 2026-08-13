@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="240">
+  <defs>
+    <linearGradient id="card-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+
+    <linearGradient id="border-glow-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d4ff" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+
+    <linearGradient id="border-glow-2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88" />
+      <stop offset="100%" stop-color="#00d4ff" />
+    </linearGradient>
+
+    <filter id="box-glow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseDot {
+      0%, 100% { r: 5px; opacity: 1; fill: #00d4ff; }
+      50% { r: 8px; opacity: 0.5; fill: #00ff88; }
+    }
+    .card { fill: url(#card-bg-grad); stroke: #30363d; stroke-width: 1.5; rx: 12px; }
+    .card-title { font-family: 'Segoe UI', -apple-system, sans-serif; font-size: 14px; font-weight: 700; fill: #00d4ff; letter-spacing: 0.5px; }
+    .card-desc { font-family: 'Segoe UI', sans-serif; font-size: 13px; fill: #c9d1d9; font-weight: 500; }
+    .pulse-indicator { animation: pulseDot 2s infinite ease-in-out; }
+  </style>
+
+  <!-- Container Background -->
+  <rect width="900" height="240" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Section Title -->
+  <g transform="translate(450, 30)" text-anchor="middle">
+    <text font-family="'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#ffffff" letter-spacing="1">⚡ CURRENT FOCUS &amp; OBJECTIVES</text>
+  </g>
+
+  <!-- Grid Layout: 2x2 Cards -->
+
+  <!-- Card 1: Building -->
+  <g transform="translate(30, 50)">
+    <rect width="410" height="75" class="card" />
+    <circle cx="25" cy="37" r="5" class="pulse-indicator" />
+    <text x="45" y="32" class="card-title">🔭 CURRENTLY BUILDING</text>
+    <text x="45" y="54" class="card-desc">Cross-Platform Mobile Apps &amp; High-Performance Web Apps</text>
+  </g>
+
+  <!-- Card 2: Learning -->
+  <g transform="translate(460, 50)">
+    <rect width="410" height="75" class="card" />
+    <circle cx="25" cy="37" r="5" class="pulse-indicator" style="animation-delay: 0.5s;" />
+    <text x="45" y="32" class="card-title">🌱 EXPLORING &amp; LEARNING</text>
+    <text x="45" y="54" class="card-desc">System Architecture, Microservices &amp; Advanced Motion UI</text>
+  </g>
+
+  <!-- Card 3: Philosophy -->
+  <g transform="translate(30, 140)">
+    <rect width="410" height="75" class="card" />
+    <circle cx="25" cy="37" r="5" class="pulse-indicator" style="animation-delay: 1.0s;" />
+    <text x="45" y="32" class="card-title">⚡ ENGINEERING PASSION</text>
+    <text x="45" y="54" class="card-desc">Sleek User Interfaces, Clean Architecture &amp; Fast Code</text>
+  </g>
+
+  <!-- Card 4: Goals -->
+  <g transform="translate(460, 140)">
+    <rect width="410" height="75" class="card" />
+    <circle cx="25" cy="37" r="5" class="pulse-indicator" style="animation-delay: 1.5s;" />
+    <text x="45" y="32" class="card-title">🎯 GOALS &amp; MILESTONES</text>
+    <text x="45" y="54" class="card-desc">Shipping Production-Ready Apps &amp; Growing as a Developer</text>
+  </g>
+</svg>

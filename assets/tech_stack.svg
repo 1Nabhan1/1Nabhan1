@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="100%" height="380">
+  <defs>
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+
+    <linearGradient id="mobile-badge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#02569b" />
+      <stop offset="100%" stop-color="#0175c2" />
+    </linearGradient>
+
+    <linearGradient id="web-badge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f3460" />
+      <stop offset="100%" stop-color="#16213e" />
+    </linearGradient>
+
+    <linearGradient id="tools-badge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1b262c" />
+      <stop offset="100%" stop-color="#0f4c75" />
+    </linearGradient>
+
+    <filter id="glow-badge" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes badgeHover {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-3px); }
+    }
+    .card-bg { fill: url(#card-grad); stroke: #30363d; stroke-width: 1.5; rx: 14px; }
+    .section-title { font-family: 'Segoe UI', -apple-system, sans-serif; font-size: 16px; font-weight: 700; fill: #00d4ff; letter-spacing: 1px; }
+    .badge-bg { rx: 8px; stroke: #30363d; stroke-width: 1; }
+    .badge-text { font-family: 'Segoe UI', sans-serif; font-size: 13px; font-weight: 600; fill: #ffffff; }
+    .mobile-glow { fill: url(#mobile-badge); }
+    .web-glow { fill: url(#web-badge); }
+    .tools-glow { fill: url(#tools-badge); }
+    .anim-1 { animation: badgeHover 3s infinite ease-in-out; }
+    .anim-2 { animation: badgeHover 3.5s infinite ease-in-out 0.5s; }
+    .anim-3 { animation: badgeHover 4s infinite ease-in-out 1s; }
+  </style>
+
+  <!-- Container Background -->
+  <rect width="900" height="380" class="card-bg" />
+
+  <!-- Section Header -->
+  <g transform="translate(450, 35)" text-anchor="middle">
+    <text class="section-title" font-size="20">🛠️ TECHNICAL SKILLS &amp; STACK</text>
+    <line x1="-120" y1="14" x2="120" y2="14" stroke="#00d4ff" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Group 1: Mobile Development -->
+  <g transform="translate(30, 80)">
+    <text class="section-title">📱 MOBILE DEVELOPMENT</text>
+    <g transform="translate(0, 20)" class="anim-1">
+      <!-- Badge Flutter -->
+      <g transform="translate(0, 0)">
+        <rect width="125" height="36" class="badge-bg mobile-glow" />
+        <text x="62.5" y="23" text-anchor="middle" class="badge-text">⚡ Flutter</text>
+      </g>
+      <!-- Badge Dart -->
+      <g transform="translate(140, 0)">
+        <rect width="110" height="36" class="badge-bg mobile-glow" />
+        <text x="55" y="23" text-anchor="middle" class="badge-text">🎯 Dart</text>
+      </g>
+      <!-- Badge React Native -->
+      <g transform="translate(265, 0)">
+        <rect width="155" height="36" class="badge-bg mobile-glow" />
+        <text x="77.5" y="23" text-anchor="middle" class="badge-text">⚛️ React Native</text>
+      </g>
+      <!-- Badge Android -->
+      <g transform="translate(435, 0)">
+        <rect width="130" height="36" class="badge-bg mobile-glow" />
+        <text x="65" y="23" text-anchor="middle" class="badge-text">🤖 Android</text>
+      </g>
+      <!-- Badge Kotlin -->
+      <g transform="translate(580, 0)">
+        <rect width="120" height="36" class="badge-bg mobile-glow" />
+        <text x="60" y="23" text-anchor="middle" class="badge-text">🅺 Kotlin</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Group 2: Web Development -->
+  <g transform="translate(30, 180)">
+    <text class="section-title">🌐 WEB DEVELOPMENT</text>
+    <g transform="translate(0, 20)" class="anim-2">
+      <!-- Badge React -->
+      <g transform="translate(0, 0)">
+        <rect width="115" height="36" class="badge-bg web-glow" />
+        <text x="57.5" y="23" text-anchor="middle" class="badge-text">⚛️ React</text>
+      </g>
+      <!-- Badge Next.js -->
+      <g transform="translate(130, 0)">
+        <rect width="125" height="36" class="badge-bg web-glow" />
+        <text x="62.5" y="23" text-anchor="middle" class="badge-text">▲ Next.js</text>
+      </g>
+      <!-- Badge TypeScript -->
+      <g transform="translate(270, 0)">
+        <rect width="145" height="36" class="badge-bg web-glow" />
+        <text x="72.5" y="23" text-anchor="middle" class="badge-text">🔷 TypeScript</text>
+      </g>
+      <!-- Badge JavaScript -->
+      <g transform="translate(430, 0)">
+        <rect width="140" height="36" class="badge-bg web-glow" />
+        <text x="70" y="23" text-anchor="middle" class="badge-text">🟨 JavaScript</text>
+      </g>
+      <!-- Badge Node.js -->
+      <g transform="translate(585, 0)">
+        <rect width="125" height="36" class="badge-bg web-glow" />
+        <text x="62.5" y="23" text-anchor="middle" class="badge-text">🟢 Node.js</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Group 3: Design & Tools -->
+  <g transform="translate(30, 280)">
+    <text class="section-title">🎨 DESIGN, TOOLS &amp; PLATFORMS</text>
+    <g transform="translate(0, 20)" class="anim-3">
+      <!-- Badge Tailwind -->
+      <g transform="translate(0, 0)">
+        <rect width="145" height="36" class="badge-bg tools-glow" />
+        <text x="72.5" y="23" text-anchor="middle" class="badge-text">🎨 Tailwind CSS</text>
+      </g>
+      <!-- Badge Figma -->
+      <g transform="translate(160, 0)">
+        <rect width="115" height="36" class="badge-bg tools-glow" />
+        <text x="57.5" y="23" text-anchor="middle" class="badge-text">🎨 Figma</text>
+      </g>
+      <!-- Badge Git -->
+      <g transform="translate(290, 0)">
+        <rect width="100" height="36" class="badge-bg tools-glow" />
+        <text x="50" y="23" text-anchor="middle" class="badge-text">🌱 Git</text>
+      </g>
+      <!-- Badge Firebase -->
+      <g transform="translate(405, 0)">
+        <rect width="130" height="36" class="badge-bg tools-glow" />
+        <text x="65" y="23" text-anchor="middle" class="badge-text">🔥 Firebase</text>
+      </g>
+      <!-- Badge VS Code -->
+      <g transform="translate(550, 0)">
+        <rect width="130" height="36" class="badge-bg tools-glow" />
+        <text x="65" y="23" text-anchor="middle" class="badge-text">💻 VS Code</text>
+      </g>
+    </g>
+  </g>
+</svg>

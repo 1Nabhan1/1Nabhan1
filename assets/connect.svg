@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" width="100%" height="160">
+  <defs>
+    <linearGradient id="connect-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+
+    <linearGradient id="btn-grad-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ea4335" />
+      <stop offset="100%" stop-color="#c5221f" />
+    </linearGradient>
+
+    <linearGradient id="btn-grad-2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a66c2" />
+      <stop offset="100%" stop-color="#004182" />
+    </linearGradient>
+
+    <linearGradient id="btn-grad-3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1da1f2" />
+      <stop offset="100%" stop-color="#0c7abf" />
+    </linearGradient>
+
+    <linearGradient id="btn-grad-4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d4ff" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes glowPulse {
+      0%, 100% { filter: drop-shadow(0 0 4px #00d4ff); }
+      50% { filter: drop-shadow(0 0 12px #7c3aed); }
+    }
+    .connect-card { fill: url(#connect-bg); stroke: #30363d; stroke-width: 1.5; rx: 14px; }
+    .title-text { font-family: 'Segoe UI', -apple-system, sans-serif; font-size: 18px; font-weight: 700; fill: #ffffff; letter-spacing: 1px; }
+    .btn-bg { rx: 10px; stroke: #30363d; stroke-width: 1; }
+    .btn-text { font-family: 'Segoe UI', sans-serif; font-size: 14px; font-weight: 700; fill: #ffffff; }
+    .glow-anim { animation: glowPulse 4s infinite ease-in-out; }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="900" height="160" class="connect-card" />
+
+  <!-- Title -->
+  <g transform="translate(450, 40)" text-anchor="middle">
+    <text class="title-text">📫 LET'S CONNECT &amp; COLLABORATE</text>
+  </g>
+
+  <!-- Connect Buttons Row -->
+  <g transform="translate(60, 75)">
+    <!-- Email Button -->
+    <a href="mailto:your@email.com">
+      <g transform="translate(0, 0)">
+        <rect width="170" height="46" fill="url(#btn-grad-1)" class="btn-bg" />
+        <text x="85" y="28" text-anchor="middle" class="btn-text">✉️ Send Email</text>
+      </g>
+    </a>
+
+    <!-- LinkedIn Button -->
+    <a href="https://linkedin.com/in/nabhan-usman">
+      <g transform="translate(195, 0)">
+        <rect width="170" height="46" fill="url(#btn-grad-2)" class="btn-bg" />
+        <text x="85" y="28" text-anchor="middle" class="btn-text">💼 LinkedIn</text>
+      </g>
+    </a>
+
+    <!-- Twitter / X Button -->
+    <a href="https://twitter.com/nabhan_usman">
+      <g transform="translate(390, 0)">
+        <rect width="170" height="46" fill="url(#btn-grad-3)" class="btn-bg" />
+        <text x="85" y="28" text-anchor="middle" class="btn-text">🐦 Twitter / X</text>
+      </g>
+    </a>
+
+    <!-- Portfolio Button -->
+    <a href="https://your-portfolio.dev">
+      <g transform="translate(585, 0)" class="glow-anim">
+        <rect width="190" height="46" fill="url(#btn-grad-4)" class="btn-bg" />
+        <text x="95" y="28" text-anchor="middle" class="btn-text">🌐 Portfolio Website</text>
+      </g>
+    </a>
+  </g>
+</svg>
