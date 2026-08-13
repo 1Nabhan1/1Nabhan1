@@ -8,6 +8,10 @@ on:
     branches:
       - main                # Also runs on every push to main
 
+# Grant the GITHUB_TOKEN write access to push the output branch
+permissions:
+  contents: write
+
 jobs:
   generate:
     name: Generate Snake SVG
