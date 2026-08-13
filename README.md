@@ -151,8 +151,6 @@ const nabhan = {
   </picture>
 </div>
 
-> **Note:** Set up the snake animation by adding a GitHub Action — see [Platane/snk](https://github.com/Platane/snk).
-
 ---
 
 ## 📫 Let's Connect
