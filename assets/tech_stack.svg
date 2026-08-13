@@ -1,148 +1,177 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="100%" height="420">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" width="100%" height="350">
   <defs>
-    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#161b22" />
-      <stop offset="100%" stop-color="#0d1117" />
+    <linearGradient id="page-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
 
-    <linearGradient id="mobile-badge" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#02569b" />
-      <stop offset="100%" stop-color="#0175c2" />
+    <!-- Category accent colors -->
+    <linearGradient id="mob-accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#02569B"/>
+      <stop offset="100%" stop-color="#0175C2"/>
     </linearGradient>
-
-    <linearGradient id="web-badge" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0f3460" />
-      <stop offset="100%" stop-color="#16213e" />
+    <linearGradient id="web-accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#61DAFB"/>
+      <stop offset="100%" stop-color="#0078D4"/>
     </linearGradient>
-
-    <linearGradient id="tools-badge" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1b262c" />
-      <stop offset="100%" stop-color="#0f4c75" />
+    <linearGradient id="des-accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38B2AC"/>
+      <stop offset="100%" stop-color="#319795"/>
+    </linearGradient>
+    <linearGradient id="tool-accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F05032"/>
+      <stop offset="100%" stop-color="#FFCA28"/>
     </linearGradient>
   </defs>
 
   <style>
-    @keyframes badgeFloat {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-3px); }
-    }
-    .card-bg { fill: url(#card-grad); stroke: #30363d; stroke-width: 1.5; }
-    .section-title {
-      font-family: 'Segoe UI', -apple-system, sans-serif;
-      font-size: 14px;
+    .page-bg  { fill: url(#page-bg); rx: 14; }
+    .cat-label {
+      font-family: 'Fira Code', 'Consolas', monospace;
+      font-size: 12px;
       font-weight: 700;
-      fill: #00d4ff;
+      letter-spacing: 1.5px;
+      dominant-baseline: middle;
+    }
+    .chip-bg {
+      fill: #0d1117;
+      rx: 6;
+      stroke-width: 1.5;
+    }
+    .chip-text {
+      font-family: 'Segoe UI', -apple-system, sans-serif;
+      font-size: 12.5px;
+      font-weight: 600;
+      fill: #e6edf3;
+      dominant-baseline: middle;
+    }
+    .header-text {
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 17px;
+      font-weight: 700;
+      fill: #e6edf3;
       letter-spacing: 1px;
     }
-    .badge-bg { rx: 8px; stroke: #30363d; stroke-width: 1; }
-    .badge-text {
-      font-family: 'Segoe UI', sans-serif;
-      font-size: 13px;
-      font-weight: 600;
-      fill: #ffffff;
-    }
-    .mobile-fill { fill: url(#mobile-badge); }
-    .web-fill    { fill: url(#web-badge); }
-    .tools-fill  { fill: url(#tools-badge); }
-    .anim-1 { animation: badgeFloat 3.0s infinite ease-in-out; }
-    .anim-2 { animation: badgeFloat 3.5s infinite ease-in-out 0.5s; }
-    .anim-3 { animation: badgeFloat 4.0s infinite ease-in-out 1.0s; }
-    .divider { stroke: #30363d; stroke-width: 1; }
+    .row-line { stroke: #21262d; stroke-width: 1; }
   </style>
 
-  <!-- Container -->
-  <rect width="900" height="420" rx="14" class="card-bg" />
+  <!-- Background -->
+  <rect width="900" height="350" rx="14" class="page-bg" stroke="#30363d" stroke-width="1.5"/>
 
-  <!-- ── MAIN HEADER ───────────────────────────────────────────────── -->
-  <g transform="translate(450, 42)" text-anchor="middle">
-    <text font-family="'Segoe UI', sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="1">
-      &#128295; TECHNICAL SKILLS &amp; STACK
-    </text>
-    <line x1="-130" y1="12" x2="130" y2="12" stroke="#00d4ff" stroke-width="2" stroke-linecap="round" />
+  <!-- Header -->
+  <text x="450" y="38" text-anchor="middle" class="header-text">&#128293; TECH STACK &amp; SPECIALTIES</text>
+  <line x1="30" y1="56" x2="870" y2="56" class="row-line"/>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- ROW 1 — MOBILE -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- Left accent bar -->
+  <rect x="30" y="70" width="4" height="44" rx="2" fill="url(#mob-accent)"/>
+  <!-- Category Label -->
+  <text x="46" y="92" class="cat-label" fill="#0175C2">&#128241; MOBILE</text>
+
+  <!-- Chips: Flutter -->
+  <g transform="translate(160, 74)">
+    <rect width="88" height="32" class="chip-bg" stroke="#02569B"/>
+    <text x="44" y="16" text-anchor="middle" class="chip-text">Flutter</text>
+  </g>
+  <!-- Dart -->
+  <g transform="translate(258, 74)">
+    <rect width="70" height="32" class="chip-bg" stroke="#0175C2"/>
+    <text x="35" y="16" text-anchor="middle" class="chip-text">Dart</text>
+  </g>
+  <!-- React Native -->
+  <g transform="translate(338, 74)">
+    <rect width="116" height="32" class="chip-bg" stroke="#02569B"/>
+    <text x="58" y="16" text-anchor="middle" class="chip-text">React Native</text>
+  </g>
+  <!-- Android -->
+  <g transform="translate(464, 74)">
+    <rect width="88" height="32" class="chip-bg" stroke="#3DDC84"/>
+    <text x="44" y="16" text-anchor="middle" class="chip-text">Android</text>
+  </g>
+  <!-- Kotlin -->
+  <g transform="translate(562, 74)">
+    <rect width="80" height="32" class="chip-bg" stroke="#0095D5"/>
+    <text x="40" y="16" text-anchor="middle" class="chip-text">Kotlin</text>
   </g>
 
-  <!-- ── GROUP 1: Mobile Development ─────────────────────────────── -->
-  <!-- Section Label -->
-  <text x="30" y="94" class="section-title">&#128241; MOBILE DEVELOPMENT</text>
-  <!-- Badges -->
-  <g transform="translate(30, 106)" class="anim-1">
-    <g transform="translate(0,0)">
-      <rect width="125" height="36" class="badge-bg mobile-fill" />
-      <text x="62.5" y="23" text-anchor="middle" class="badge-text">&#9889; Flutter</text>
-    </g>
-    <g transform="translate(140,0)">
-      <rect width="110" height="36" class="badge-bg mobile-fill" />
-      <text x="55" y="23" text-anchor="middle" class="badge-text">&#127919; Dart</text>
-    </g>
-    <g transform="translate(265,0)">
-      <rect width="155" height="36" class="badge-bg mobile-fill" />
-      <text x="77.5" y="23" text-anchor="middle" class="badge-text">&#9883;&#65039; React Native</text>
-    </g>
-    <g transform="translate(435,0)">
-      <rect width="130" height="36" class="badge-bg mobile-fill" />
-      <text x="65" y="23" text-anchor="middle" class="badge-text">&#129302; Android</text>
-    </g>
-    <g transform="translate(580,0)">
-      <rect width="120" height="36" class="badge-bg mobile-fill" />
-      <text x="60" y="23" text-anchor="middle" class="badge-text">&#128346; Kotlin</text>
-    </g>
+  <line x1="30" y1="130" x2="870" y2="130" class="row-line"/>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- ROW 2 — WEB -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <rect x="30" y="142" width="4" height="44" rx="2" fill="url(#web-accent)"/>
+  <text x="46" y="164" class="cat-label" fill="#61DAFB">&#127760; WEB</text>
+
+  <g transform="translate(160, 146)">
+    <rect width="78" height="32" class="chip-bg" stroke="#61DAFB"/>
+    <text x="39" y="16" text-anchor="middle" class="chip-text">React</text>
+  </g>
+  <g transform="translate(248, 146)">
+    <rect width="84" height="32" class="chip-bg" stroke="#ffffff"/>
+    <text x="42" y="16" text-anchor="middle" class="chip-text">Next.js</text>
+  </g>
+  <g transform="translate(342, 146)">
+    <rect width="106" height="32" class="chip-bg" stroke="#007ACC"/>
+    <text x="53" y="16" text-anchor="middle" class="chip-text">TypeScript</text>
+  </g>
+  <g transform="translate(458, 146)">
+    <rect width="106" height="32" class="chip-bg" stroke="#F7DF1E"/>
+    <text x="53" y="16" text-anchor="middle" class="chip-text">JavaScript</text>
+  </g>
+  <g transform="translate(574, 146)">
+    <rect width="86" height="32" class="chip-bg" stroke="#339933"/>
+    <text x="43" y="16" text-anchor="middle" class="chip-text">Node.js</text>
   </g>
 
-  <line x1="30" y1="162" x2="870" y2="162" class="divider" />
+  <line x1="30" y1="202" x2="870" y2="202" class="row-line"/>
 
-  <!-- ── GROUP 2: Web Development ─────────────────────────────────── -->
-  <text x="30" y="194" class="section-title">&#127760; WEB DEVELOPMENT</text>
-  <g transform="translate(30, 206)" class="anim-2">
-    <g transform="translate(0,0)">
-      <rect width="115" height="36" class="badge-bg web-fill" />
-      <text x="57.5" y="23" text-anchor="middle" class="badge-text">&#9883;&#65039; React</text>
-    </g>
-    <g transform="translate(130,0)">
-      <rect width="125" height="36" class="badge-bg web-fill" />
-      <text x="62.5" y="23" text-anchor="middle" class="badge-text">&#9650; Next.js</text>
-    </g>
-    <g transform="translate(270,0)">
-      <rect width="145" height="36" class="badge-bg web-fill" />
-      <text x="72.5" y="23" text-anchor="middle" class="badge-text">&#128311; TypeScript</text>
-    </g>
-    <g transform="translate(430,0)">
-      <rect width="140" height="36" class="badge-bg web-fill" />
-      <text x="70" y="23" text-anchor="middle" class="badge-text">JS JavaScript</text>
-    </g>
-    <g transform="translate(585,0)">
-      <rect width="125" height="36" class="badge-bg web-fill" />
-      <text x="62.5" y="23" text-anchor="middle" class="badge-text">&#128994; Node.js</text>
-    </g>
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- ROW 3 — DESIGN -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <rect x="30" y="214" width="4" height="44" rx="2" fill="url(#des-accent)"/>
+  <text x="46" y="236" class="cat-label" fill="#38B2AC">&#127912; DESIGN</text>
+
+  <g transform="translate(160, 218)">
+    <rect width="116" height="32" class="chip-bg" stroke="#38B2AC"/>
+    <text x="58" y="16" text-anchor="middle" class="chip-text">Tailwind CSS</text>
+  </g>
+  <g transform="translate(286, 218)">
+    <rect width="76" height="32" class="chip-bg" stroke="#F24E1E"/>
+    <text x="38" y="16" text-anchor="middle" class="chip-text">Figma</text>
+  </g>
+  <g transform="translate(372, 218)">
+    <rect width="68" height="32" class="chip-bg" stroke="#1572B6"/>
+    <text x="34" y="16" text-anchor="middle" class="chip-text">CSS3</text>
   </g>
 
-  <line x1="30" y1="262" x2="870" y2="262" class="divider" />
+  <line x1="30" y1="274" x2="870" y2="274" class="row-line"/>
 
-  <!-- ── GROUP 3: Design, Tools & Platforms ──────────────────────── -->
-  <text x="30" y="294" class="section-title">&#127912; DESIGN, TOOLS &amp; PLATFORMS</text>
-  <g transform="translate(30, 306)" class="anim-3">
-    <g transform="translate(0,0)">
-      <rect width="145" height="36" class="badge-bg tools-fill" />
-      <text x="72.5" y="23" text-anchor="middle" class="badge-text">&#127912; Tailwind CSS</text>
-    </g>
-    <g transform="translate(160,0)">
-      <rect width="110" height="36" class="badge-bg tools-fill" />
-      <text x="55" y="23" text-anchor="middle" class="badge-text">&#127912; Figma</text>
-    </g>
-    <g transform="translate(285,0)">
-      <rect width="100" height="36" class="badge-bg tools-fill" />
-      <text x="50" y="23" text-anchor="middle" class="badge-text">&#127807; Git</text>
-    </g>
-    <g transform="translate(400,0)">
-      <rect width="130" height="36" class="badge-bg tools-fill" />
-      <text x="65" y="23" text-anchor="middle" class="badge-text">&#128293; Firebase</text>
-    </g>
-    <g transform="translate(545,0)">
-      <rect width="130" height="36" class="badge-bg tools-fill" />
-      <text x="65" y="23" text-anchor="middle" class="badge-text">&#128187; VS Code</text>
-    </g>
-    <g transform="translate(690,0)">
-      <rect width="115" height="36" class="badge-bg tools-fill" />
-      <text x="57.5" y="23" text-anchor="middle" class="badge-text">&#128039; Linux</text>
-    </g>
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- ROW 4 — TOOLS -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <rect x="30" y="286" width="4" height="44" rx="2" fill="url(#tool-accent)"/>
+  <text x="46" y="308" class="cat-label" fill="#F05032">&#9881;&#65039; TOOLS</text>
+
+  <g transform="translate(160, 290)">
+    <rect width="64" height="32" class="chip-bg" stroke="#F05032"/>
+    <text x="32" y="16" text-anchor="middle" class="chip-text">Git</text>
+  </g>
+  <g transform="translate(234, 290)">
+    <rect width="84" height="32" class="chip-bg" stroke="#58a6ff"/>
+    <text x="42" y="16" text-anchor="middle" class="chip-text">GitHub</text>
+  </g>
+  <g transform="translate(328, 290)">
+    <rect width="90" height="32" class="chip-bg" stroke="#FFCA28"/>
+    <text x="45" y="16" text-anchor="middle" class="chip-text">Firebase</text>
+  </g>
+  <g transform="translate(428, 290)">
+    <rect width="88" height="32" class="chip-bg" stroke="#0078D4"/>
+    <text x="44" y="16" text-anchor="middle" class="chip-text">VS Code</text>
+  </g>
+  <g transform="translate(526, 290)">
+    <rect width="72" height="32" class="chip-bg" stroke="#FCC624"/>
+    <text x="36" y="16" text-anchor="middle" class="chip-text">Linux</text>
   </g>
 </svg>
