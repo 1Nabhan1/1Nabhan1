@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Wave Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0f3460,100:00d4ff&height=220&section=header&text=Nabhan%20Usman&fontSize=70&fontColor=00d4ff&fontAlignY=38&desc=Software%20Developer%20%7C%20Mobile%20%26%20Web%20Dev&descSize=22&descAlignY=58&descColor=a0e4f1&animation=twinkling" width="100%"/>
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0f3460,100:00d4ff&height=220&section=header&text=Nabhan%20Usman&fontSize=70&fontColor=00d4ff&fontAlignY=38&desc=Software%20Developer%20%7C%20Mobile%20%26%20Web%20Dev&descSize=22&descAlignY=58&descColor=a0e4f1&animation=twinkling)
 
 <!-- Animated Typing SVG -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=%F0%9F%9A%80+Building+the+future%2C+one+line+at+a+time;%F0%9F%93%B1+Mobile+Dev+%7C+%F0%9F%8C%90+Web+Dev;%E2%9C%A8+Dark+theme+enthusiast+%26+clean+code+lover;%F0%9F%94%A5+Turning+ideas+into+reality)](https://git.io/typing-svg)
@@ -159,6 +159,4 @@
 
 <br/>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:0f3460,100:0d1117&height=120&section=footer" width="100%"/>
-</div>
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:0f3460,100:0d1117&height=120&section=footer)
