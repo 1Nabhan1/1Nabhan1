@@ -2,12 +2,12 @@
 
 <!-- Header -->
 <h1>👋 Hi, I'm Nabhan Usman</h1>
-<h3>🚀 Software Developer &nbsp;|&nbsp; 📱 Mobile Dev &nbsp;|&nbsp; 🌐 Web Dev &nbsp;|&nbsp; 🌑 Dark Theme Enthusiast</h3>
+<h3>🚀 Software Developer &nbsp;|&nbsp; 📱 Mobile Dev &nbsp;|&nbsp; 🌐 Web Dev</h3>
 
 <br/>
 
 <!-- Animated Typing SVG (demolab — not Vercel) -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=%F0%9F%9A%80+Building+the+future%2C+one+line+at+a+time;%F0%9F%93%B1+Mobile+Dev+%7C+%F0%9F%8C%90+Web+Dev;%E2%9C%A8+Dark+theme+enthusiast+%26+clean+code+lover;%F0%9F%94%A5+Turning+ideas+into+reality)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=%F0%9F%9A%80+Building+the+future%2C+one+line+at+a+time;%F0%9F%93%B1+Mobile+Dev+%7C+%F0%9F%8C%90+Web+Dev;%E2%9C%A8+Clean+code+%26+great+experiences;%F0%9F%94%A5+Turning+ideas+into+reality)](https://git.io/typing-svg)
 
 <br/>
 
@@ -26,7 +26,7 @@
 
 <div align="center">
 
-[![About Me Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=800&color=00D4FF&center=true&vCenter=true&width=700&lines=Hey!+I'm+Nabhan+Usman+%F0%9F%91%8B;Software+Developer+%7C+Dark+Theme+Architect+%F0%9F%8C%91;I+build+sleek+Mobile+apps+that+feel+native+%F0%9F%93%B1;I+craft+Web+apps+that+live+in+the+dark+%F0%9F%8C%90;Performance+obsessed+%26+clean+code+lover+%E2%9A%A1;If+it+ain't+dark+mode%2C+it+ain't+home+%F0%9F%96%A4;My+IDE+theme%3F+Always+dark.+Always.+%F0%9F%8C%91)](https://git.io/typing-svg)
+[![About Me Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=800&color=00D4FF&center=true&vCenter=true&width=700&lines=Hey!+I'm+Nabhan+Usman+%F0%9F%91%8B;Software+Developer+crafting+digital+experiences;I+build+sleek+Mobile+apps+that+feel+native+%F0%9F%93%B1;I+craft+smooth+Web+apps+%26+great+UIs+%F0%9F%8C%90;Performance+obsessed+%26+clean+code+lover+%E2%9A%A1;Building+things+people+love+to+use+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <br/><br/>
 
@@ -36,29 +36,11 @@
 
 ![Mobile](https://img.shields.io/badge/Specialty-Mobile%20Dev-02569B?style=for-the-badge&logo=flutter&logoColor=white&labelColor=0d1117)
 ![Web](https://img.shields.io/badge/Specialty-Web%20Dev-0f3460?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=0d1117)
-![Dark](https://img.shields.io/badge/Vibe-Dark%20Mode%20Always-111111?style=for-the-badge&logo=nightscout&logoColor=white&labelColor=0d1117)
+![Passion](https://img.shields.io/badge/Passion-Clean%20Code-00d4ff?style=for-the-badge&logo=code&logoColor=white&labelColor=0d1117)
 
 </div>
 
----
 
-## 🌑 Dark Theme Lifestyle
-
-<div align="center">
-
-[![Dark Theme](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2200&pause=700&color=00D4FF&center=true&vCenter=true&width=650&lines=%F0%9F%8C%91+Light+mode+is+just+a+myth+I+heard+about...;%F0%9F%96%A4+My+wallpaper%3F+Pure+black+%230d1117;%F0%9F%92%BB+VS+Code+theme%3A+One+Dark+Pro+%2B+Fira+Code;%F0%9F%93%B1+OLED+dark+mode+on+every+app%2C+no+exceptions;%F0%9F%8C%99+I+design+UIs+for+people+who+love+the+night;%E2%9C%A8+Dark+%2B+Minimal+%2B+Fast+%3D+Perfect+UI)](https://git.io/typing-svg)
-
-<br/>
-
-![VS Code](https://img.shields.io/badge/Editor-VS%20Code%20Dark-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=0d1117)
-![Theme](https://img.shields.io/badge/Theme-One%20Dark%20Pro-blueviolet?style=for-the-badge&logo=atom&logoColor=white&labelColor=0d1117)
-![Font](https://img.shields.io/badge/Font-Fira%20Code-00d4ff?style=for-the-badge&logo=googlefonts&logoColor=white&labelColor=0d1117)
-![Terminal](https://img.shields.io/badge/Terminal-Dark%20%2B%20Nerd%20Fonts-111111?style=for-the-badge&logo=windowsterminal&logoColor=white&labelColor=0d1117)
-![Wallpaper](https://img.shields.io/badge/Wallpaper-Pure%20Black%20%230d1117-000000?style=for-the-badge&logo=nightscout&logoColor=00d4ff&labelColor=0d1117)
-
-</div>
-
----
 
 ## 📊 GitHub Stats
 
